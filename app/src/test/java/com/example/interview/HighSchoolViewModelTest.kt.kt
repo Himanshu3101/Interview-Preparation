@@ -22,6 +22,7 @@ import org.mockito.MockitoAnnotations
 import org.mockito.kotlin.mock
 import org.mockito.kotlin.whenever
 
+
 @OptIn(ExperimentalCoroutinesApi::class)
 class HighSchoolViewModelTest {
 
