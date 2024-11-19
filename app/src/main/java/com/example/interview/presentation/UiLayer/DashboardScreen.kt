@@ -37,9 +37,8 @@ fun DashboardScreen(
     val  viewModel: SchoolListViewModel = hiltViewModel()
     val highSchools by viewModel.highSchool.collectAsState()
 
-//    var highSchoolS by remember { mutableStateOf(highSchoolList) }
 
-    Scaffold(
+    Scaffold/*(
         modifier = Modifier.padding(6.dp),
         floatingActionButton = {
             FloatingActionButton(
@@ -50,7 +49,7 @@ fun DashboardScreen(
             }
 
         }
-    ) { padding ->
+    ) */{ padding ->
         LazyColumn(
             contentPadding = padding,
             modifier = Modifier.padding(top = 30.dp)
